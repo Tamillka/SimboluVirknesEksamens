@@ -22,21 +22,21 @@ void Jautajumi(){
   jautajumi.push_back("Kas tiks izvadīts ekrānā, ja simbolu masīvam A kā vertību pievieno vārdu 'LabDien' un izmanto rindiņu cout<<strupr(A)? \na) labdien\nb) lABdIEN\nc) LABDIEN\nd) LABdien\n");
 }
 void Tests(){
-  for(int i=0; i<jautajumi.size(); i++){
+  for(int i=0; i<jautajumi.size(); i++){    
     bool pareizi = false;
     int meginajumi = 0;
-    cout<<i+1<<". "<<jautajumi[i];
-    cin>>atbilde;
-    if(atbilde==parAtbildes[i]){
-      if(meginajumi==0)
-      noPirmasReizes++;
-      cout<<"Pareizi!\n\n";
-      pareizi = true;
-      
-    }else{
-      cout<<"Nepareizi, mēģini vēl!\n";
-      i--;
-      meginajumi++;
+    while(pareizi == false){
+      cout<<i+1<<". "<<jautajumi[i];
+      cin>>atbilde;
+      if(atbilde == parAtbildes[i]){
+        if(meginajumi == 0)
+        noPirmasReizes++;
+        cout<<"Pareizi!\n\n";
+        pareizi = true;      
+      }else{
+        cout<<"Nepareizi, mēģini vēl!\n";
+        meginajumi++;
+      }
     }
   }
 }
