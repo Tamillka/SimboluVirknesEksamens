@@ -7,8 +7,8 @@ Komentāri, pievienoti koda rakstīšanas laikā, atrodas uz main zara.
 - [x] Mācību materiāls 
 - [ ] Diagrammas
 - [x] Testa noteikumu apraksts
-- [ ] 10 jautājumi testā
+- [x] 10 jautājumi testā
 - [x] Iespēja atbildēt uz jutājumu, kamēr ta nav pareiza
-- [ ] Skaitīšana iegūto pareizo atbilžu no pirmās reizes
-- [ ] Skaidrs gala paziņojums par rezultātiem
-- [ ] Programmas sadalīšana uz metodēm
+- [x] Skaitīšana iegūto pareizo atbilžu no pirmās reizes
+- [x] Skaidrs gala paziņojums par rezultātiem
+- [x] Programmas sadalīšana uz metodēm
