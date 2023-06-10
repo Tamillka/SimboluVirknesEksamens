@@ -4,6 +4,7 @@ using namespace std;
 static vector<string>jautajumi;
 static vector<string>parAtbildes = {"b", "d", "c", "a", "d", "d", "c", "a"};
 static string atbilde;
+static int noPirmasReizes = 0;
 
 void Noteikumi(){
     cout<<"               TESTS PAR SIMBOLU VIRKNĒM UN AR TĀM LIETOJAMĀM FUNKCIJĀM\nIr 10 jautājumi un 4 atbilžu varianti(a, b, c, vai d), tikai 1 pareizais. \n!Atbildi raksti ar vienu mazo burtu! \n__________________________________________________________________________________________\n\n";
@@ -21,24 +22,30 @@ void Jautajumi(){
 void Tests(){
   for(int i=0; i<jautajumi.size(); i++){
     bool pareizi = false;
+    int meginajumi = 0;
     cout<<i+1<<". "<<jautajumi[i];
     cin>>atbilde;
     if(atbilde==parAtbildes[i]){
+      if(meginajumi==0)
+      noPirmasReizes++;
       cout<<"Pareizi!\n\n";
       pareizi = true;
+      
     }else{
       cout<<"Nepareizi, mēģini vēl!\n";
       i--;
+      meginajumi++;
     }
   }
 }
 void Rezultats(){
-  
+  cout<<"Tu atbildēji uz "<<noPirmasReizes<<" jautājumiem!";
 }
 
 int main() {
 Noteikumi();
 Jautajumi();
 Tests();
+Rezultats();
   
 }
