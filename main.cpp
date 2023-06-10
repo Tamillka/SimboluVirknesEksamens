@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 static vector<string>jautajumi;
-static vector<string>parAtbildes = {"b", "d", "c", "a", "d", "d", "c", "a"};
+static vector<string>parAtbildes = {"b", "d", "c", "a", "d", "d", "c", "a", "b", "c"};
 static string atbilde;
 static int noPirmasReizes = 0;
 
@@ -18,6 +18,8 @@ void Jautajumi(){
   jautajumi.push_back("Kurš simbols noslēdz ar char tipa masīvu izveidoto simbolu virkni? \na) *\nb) /0\nc) $\nd) nav pareizās atbldes\n");
   jautajumi.push_back("Kurā bibliotēkā tiek definētas specializētas funkcijas darbam ar simbolu masīviem? \na) <algorithm>\nb) <iostream>\nc) <cstring>\nd) <string>\n");
   jautajumi.push_back("Kura funkcija jāizmanto, lai pievienot vienu simbolu masīvu otram galā? \na) strcat()\nb) strcpy()\nc) strcmp()\nd) strcmpi()\n");
+  jautajumi.push_back("Kuru funkciju var izmantot, lai uzzinātu simbolu masīva garumu? \na) size()\nb) strlen()\nc) length()\nd) visas iepriekš minētas\n");
+  jautajumi.push_back("Kas tiks izvadīts ekrānā, ja simbolu masīvam A kā vertību pievieno vārdu 'LabDien' un izmanto rindiņu cout<<strupr(A)? \na) labdien\nb) lABdIEN\nc) LABDIEN\nd) LABdien\n");
 }
 void Tests(){
   for(int i=0; i<jautajumi.size(); i++){
