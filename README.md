@@ -1,7 +1,7 @@
 # SimboluVirknesEksamens
 Projekts iekļauj mācību materiālu par simbolu virknem un ar tām lietojamām funkcijām, testu par tēmu un diagrammas. Pildot testu, lietotājs atbild uz 10 jautājumiem, izvēlējoties 1 pareizo no 4 atbilžu variantiem. Beigās tiek paziņots uz cik jautājumiem bija dota pareiza atbilde no pirmās reizes.
 
-Komentāri, pievienoti koda rakstīšanas laikā, atrodas uz main zara.
+Komentāri, pievienoti koda rakstīšanas laikā, atrodas uz zara "kods".
 
 ## Veicamo darbu saraksts
 - [x] Mācību materiāls 
