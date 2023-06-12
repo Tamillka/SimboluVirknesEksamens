@@ -5,7 +5,7 @@ Komentāri, pievienoti koda rakstīšanas laikā, atrodas uz zara "kods".
 
 ## Veicamo darbu saraksts
 - [x] Mācību materiāls 
-- [ ] Diagrammas
+- [x] Diagrammas
 - [x] Testa noteikumu apraksts
 - [x] 10 jautājumi testā
 - [x] Iespēja atbildēt uz jutājumu, kamēr ta nav pareiza
