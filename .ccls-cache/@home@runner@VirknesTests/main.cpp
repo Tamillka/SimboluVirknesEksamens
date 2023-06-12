@@ -17,7 +17,7 @@ Rezultats();
 }
 
 void Noteikumi(){
-    cout<<"              TESTS PAR SIMBOLU VIRKNĒM UN AR TĀM LIETOJAMĀM FUNKCIJĀM\nIr 10 jautājumi un 4 atbilžu varianti(a, b, c, vai d), tikai 1 pareizais. \n!Atbildi raksti ar vienu mazo burtu! \n__________________________________________________________________________________________\n\n";
+    cout<<"                 TESTS PAR SIMBOLU VIRKNĒM UN AR TĀM LIETOJAMĀM FUNKCIJĀM\nParbaudi savas zināšanas! Ir 10 jautājumi un 4 atbilžu varianti(a, b, c, vai d), tikai 1 pareizais. \n!Atbildi raksti ar vienu mazo burtu! \n__________________________________________________________________________________________________\n\n";
 }
 void Jautajumi(){
   jautajumi.push_back("Cikos veidos var izveidot simbolu virkni? \na) 1\nb) 2\nc) 3\nd) 4\n");
@@ -33,13 +33,13 @@ void Jautajumi(){
 }
 void Tests(){
   Jautajumi();
-  for(int i=0; i<jautajumi.size(); i++){    
-    bool pareizi = false;
-    int meginajumi = 0;
-    while(pareizi == false){
+  for(int i=0; i<jautajumi.size(); i++){ 
+     bool pareizi = false;
+      int meginajumi = 0;
+    while(pareizi == false){      
       cout<<i+1<<". "<<jautajumi[i];
       cin>>atbilde;
-      if(atbilde == parAtbildes[i]){
+      if(atbilde == parAtbildes[i]){      
         if(meginajumi == 0)
         noPirmasReizes++;
         cout<<"Pareizi!\n\n";
