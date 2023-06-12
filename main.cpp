@@ -42,7 +42,7 @@ void Tests(){
       if(atbilde == parAtbildes[i]){      
         if(meginajumi == 0)
         noPirmasReizes++;
-        cout<<"Pareizi!\n\n";
+        cout<<"PAREIZI!\n\n";
         pareizi = true;      
       }else{
         cout<<"Nepareizi, mēģini vēl!\n";
